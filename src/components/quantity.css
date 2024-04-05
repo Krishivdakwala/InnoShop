@@ -1,0 +1,84 @@
+/* .quantifier {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantifier input {
+    order: 1;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    padding: 10px;
+    position: relative;
+    height: 30px;
+    text-align: center;
+    width: 30px;
+    display: inline-block;
+    font-size: 13px;
+    resize: vertical;
+  }
+  
+  .quantifier input[type="button"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+  }
+  
+  .quantifier input::-webkit-outer-spin-button,
+  .quantifier input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  .quantifier input[type='button'] {
+    background-color: #eeeeee;
+    border: none;
+    width: 30px;
+    transition: all 300ms ease;
+    font-weight: bold;
+    font-size: 1.2em;
+    height: 30px;
+    padding: 0;
+    position: relative;
+  }
+  
+  .quantifier input[type="button"]:hover {
+    background-color: #D5D9D9;
+  }
+  
+  .quantifier input[type="number"] {
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+  }
+   */
+
+   .quantifier {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px; /* Adjust as needed */
+  }
+  
+  .quantityField {
+    width: 50px; /* Adjust as needed */
+    text-align: center;
+  }
+  
+  .buttonMinus,
+  .buttonPlus {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .buttonMinus:hover,
+  .buttonPlus:hover {
+    background-color: #0056b3;
+  }
+  
+  .buttonMinus:active,
+  .buttonPlus:active {
+    transform: translateY(1px);
+  }
